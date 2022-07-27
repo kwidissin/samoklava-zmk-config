@@ -66,9 +66,9 @@
                 };
                 lower_layer {
                         bindings = <
-   &none &kp F1       &kp F2                &kp F3      &kp F4       &kp F5        &kpF6   &kp F7         &kp F8       &kp F9           &kp F0                              &none
-   &none &kp N1       &kp N2                &kp N3      &kp N4       &kp N5        &kp LEFT &mt RSHFT DOWN &mt RCTRL UP &mt RALT RIGHT         &kp RCMD                     &none
-   &none &kp N6       &kp N7                &kp N8      &kp N9       &kp N0        &kp HOME &kp PG_DN      &kp PG_UP    &mt LALT END    &caps_word                          &none
+   &none &kp F1       &kp F2                &kp F3      &kp F4       &kp F5        &kpF6        &kp F7         &kp F8       &kp F9                      &kp F0                                  &none
+   &none &kp N1       &kp N2                &kp N3      &kp N4       &kp N5        &kp LEFT     &mt RSHFT DOWN &mt RCTRL UP &mt RALT RIGHT              &kp RCMD                                &none
+   &none &kp N6       &kp N7                &kp N8      &kp N9       &kp N0        &kp HOME     &kp PG_DN      &kp PG_UP    &mt LALT END                &caps_word                              &none
                                             &lt RSE ESC &lt LWR QUOT &kp SPACE                                                  &mt RSHFT RET &mo RSE &lt LWR TAB
                         >;
                 };
