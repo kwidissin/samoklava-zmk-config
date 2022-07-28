@@ -59,17 +59,17 @@
 
                 default_layer {
                         bindings = <
-   &none &kp Q      &kp W       &kp E       &kp R        &kp T         &kp Y         &kp U      &kp I        &kp O      &kp P         &none
-   &none &kp A      &kp S       &kp D       &kp F        &kp G         &kp H         &kp J      &kt K        &kp  L     &kp  SEMI     &none
-   &none &kp Z      &kp X       &kp C       &kp V        &kp B         &kp N         &kp M      &kp COMMA    &kp DOT    &kp FSLH      &none
-                                &lt RSE ESC  &lt RSE SPACE &lt LWR SPACE     &mt LWR RSHFT  &lt RSE BSPC &lt LWR TAB
+   &none &kp TAB        &kp Q       &kp W       &kp E        &kp R         &kp Y         &kp U      &kp I        &kp O      &kp P         &none
+   &none &sk LSHFT      &kp A       &kp S       &kp D        &kp F         &kp H         &kp J      &kt K        &kp  L     &kp  SEMI     &none
+   &none &kp LCTRL      &kp Z       &kp X       &kp C        &kp V         &kp N         &kp M      &kp COMMA    &kp DOT    &kp FSLH      &none
+                        &lt RSE ESC  &lt RSE SPACE &kp LWR                                     &mt LWR RSHFT  &lt RSE BSPC &lt LWR TAB
                         >;
                 };
                 lower_layer {
                         bindings = <
-   &none &kp N1   &kp N2   &kp N3      &kp N4       &kp N5        &kp N6   &kp N7         &kp N8       &kp N9         &kp N0     &none
-   &none &kp DEL &kp RALT &kp LCTRL   &kp LSHFT    &none         &kp LEFT &mt RSHFT DOWN &mt RCTRL UP &mt RALT RIGHT &kp RCMD   &none
-   &none &none    &kp LALT &none       &kp Y        &none         &kp HOME &kp PG_DN      &kp PG_UP    &mt LALT END   &caps_word &none
+   &none &kp N1         &kp N2   &kp N3      &kp N4       &kp N5        &kp N6   &kp N7         &kp N8       &kp N9         &kp N0     &none
+   &none &kp N1        &kp N2 &kp N3   &kp N4    &kp N5         &kp LEFT &mt RSHFT DOWN &mt RCTRL UP &mt RALT RIGHT &kp RCMD   &none
+   &none &none          &kp LALT &none       &kp Y        &none         &kp HOME &kp PG_DN      &kp PG_UP    &mt LALT END   &caps_word &none
                            &lt RSE ESC &lt LWR QUOT &kp SPACE     &mt RSHFT RET &mo RSE &lt LWR TAB
                         >;
                 };
