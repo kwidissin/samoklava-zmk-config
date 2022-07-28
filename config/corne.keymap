@@ -62,7 +62,7 @@
    &none &kp TAB        &kp Q       &kp W       &kp E        &kp R         &kp Y         &kp U      &kp I        &kp O      &kp P         &none
    &none &sk LSHFT      &kp A       &kp S       &kp D        &kp F         &kp H         &kp J      &kt K        &kp  L     &kp  SEMI     &none
    &none &kp LCTRL      &kp Z       &kp X       &kp C        &kp V         &kp N         &kp M      &kp COMMA    &kp DOT    &kp FSLH      &none
-                        &lt RSE ESC  &lt RSE SPACE &kp LWR                                     &mt LWR RSHFT  &lt RSE BSPC &lt LWR TAB
+                                    &kp LALT    &kp SPACE    &mo LWR                               &mt LWR RSHFT  &lt RSE BSPC &lt LWR TAB
                         >;
                 };
                 lower_layer {
