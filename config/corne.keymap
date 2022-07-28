@@ -59,34 +59,34 @@
 
                 default_layer {
                         bindings = <
-   &none &kp TAB        &kp Q       &kp W       &kp E        &kp R         &kp Y         &kp U      &kp I        &kp O      &kp P         &none
-   &none &sk LSHFT      &kp A       &kp S       &kp D        &kp F         &kp H         &kp J      &kt K        &kp  L     &kp  SEMI     &none
-   &none &kp LCTRL      &kp Z       &kp X       &kp C        &kp V         &kp N         &kp M      &kp COMMA    &kp DOT    &kp FSLH      &none
-                                    &kp LALT    &kp SPACE    &mo LWR                               &mt LWR RSHFT  &lt RSE BSPC &lt LWR TAB
+   &none &kp TAB        &kp Q       &kp W       &kp E           &kp R      /*  */     &kp T         &kp U         &kp I        &kp O         &kp P        &none
+   &none &sk LSHFT      &kp A       &kp S       &kp D           &kp F      /*  */     &kp G         &kp H         &kt J        &kp K         &kp L        &none
+   &none &kp LCTRL      &kp Z       &kp X       &kp C           &kp V      /*  */     &kp B         &kp N         &kp M        &kp Y         &kp DOT      &none
+                                    &kp LALT    &lt RSE SPACE   &mo LWR    /*  */     &mo LWR       &lt RSE SPACE &kp LALT
                         >;
                 };
                 lower_layer {
                         bindings = <
-   &none &kp N1         &kp N2   &kp N3      &kp N4       &kp N5        &kp N6   &kp N7         &kp N8       &kp N9         &kp N0     &none
-   &none &kp N1        &kp N2 &kp N3   &kp N4    &kp N5         &kp LEFT &mt RSHFT DOWN &mt RCTRL UP &mt RALT RIGHT &kp RCMD   &none
-   &none &none          &kp LALT &none       &kp Y        &none         &kp HOME &kp PG_DN      &kp PG_UP    &mt LALT END   &caps_word &none
-                           &lt RSE ESC &lt LWR QUOT &kp SPACE     &mt RSHFT RET &mo RSE &lt LWR TAB
+   &none &kp EXCL       &none       &none       &none           &none      /*  */    &kp F1   &kp F2         &kp F3       &kp F4         &kp F5     &none
+   &none &kp N1         &kp N2      &kp N3      &kp N4          &kp N5     /*  */    &kp F6   &kp F7         &kp F8       &kp F9         &kp F10    &none
+   &none &kp N6         &kp N7      &kp N8      &kp N9          &kp N0     /*  */    &kp HOME &kp PG_DN      &kp PG_UP    &mt LALT END   &none      &none
+                                    &kp LALT    &lt RSE SPACE   &mo LWR    /*  */    &mo LWR  &lt RSE SPACE  &kp LALT
                         >;
                 };
                 raise_layer {
                         bindings = <
-   &none &kp EXCL    &kp AT      &kp HASH     &kp DLLR     &kp PRCNT       &kp CARET    &kp AMPS        &kp KP_MULTIPLY &kp LPAR      &kp RPAR      &none
-   &none &mt DEL F1 &mt RALT F2 &mt LCTRL F3 &mt LSHFT F4 &kp F5          &kp MINUS     &mt RSHFT EQUAL &mt RCTRL LBKT  &mt RALT RBKT &mt RCMD BSLH &none
-   &none &kp F6      &mt LALT F7 &kp F8       &kp F11       &kp F12         &kp UNDER     &kp PLUS        &kp LBRC        &kp RBRC      &kp PIPE      &none
-                                 &lt RSE ESC  &mo LWR      &kp GRAVE       &mt RSHFT RET &lt RSE BSPC    &lt LWR TAB
+   &none &kp EXCL    &kp AT      &kp HASH     &kp DLLR     &kp PRCNT    /*  */          &kp CARET    &kp AMPS        &kp KP_MULTIPLY &kp LPAR      &kp RPAR      &none
+   &none &mt DEL F1 &mt RALT F2 &mt LCTRL F3 &mt LSHFT F4 &kp F5        /*  */          &kp MINUS     &mt RSHFT EQUAL &mt RCTRL LBKT  &mt RALT RBKT &mt RCMD BSLH &none
+   &none &kp F6      &mt LALT F7 &kp F8       &kp F11       &kp F12     /*  */          &kp UNDER     &kp PLUS        &kp LBRC        &kp RBRC      &kp PIPE      &none
+                                 &kp LALT    &lt RSE SPACE      &mo LWR /*  */          &mo LWR  &lt RSE SPACE  &kp LALT
                         >;
                 };
                 adjust_layer {
                         bindings = <
-   &none &bt BT_CLR   &none        &none        &none        &none            &none           &kp K_MUTE   &none &none &bootloader &none
-   &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4     &kp C_BRI_UP    &kp C_VOL_UP &none &none &reset      &none
-   &none &none        &none        &none        &none        &none            &kp C_BRI_DN    &kp C_VOL_DN &none &none &none       &none
-                                   &none        &none        &none            &none           &none        &none
+   &none &bt BT_CLR   &none        &none        &none        &none         /*  */    &none           &kp K_MUTE          &none   &none           &bootloader             &none
+   &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  /*  */    &kp C_BRI_UP    &kp C_VOL_UP        &none   &none           &reset                  &none
+   &none &none        &none        &none        &none        &none         /*  */    &kp C_BRI_DN    &kp C_VOL_DN       &none   &none           &none                   &none
+                                   &none        &none        &none         /*  */    &none           &none        &none
                         >;
                 };
         };
